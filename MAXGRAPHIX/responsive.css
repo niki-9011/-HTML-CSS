@@ -1,0 +1,102 @@
+@media (max-width: 768px) { 
+    /* Основни стилове */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилове за навигационното меню */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.home-logo {
+    font-size: 20px;
+}
+
+.navbar {
+    display: none;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+/* Стилове за заглавието */
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+/* Стилове за продуктите */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-container > div {
+    flex: 0 0 calc(100% - 20px);
+    margin: 10px;
+}
+
+.product-image1,
+.product-image2,
+.product-image3 {
+    width: 100%;
+    height: auto;
+}
+
+.product-post-container {
+    text-align: center;
+}
+
+.product-text {
+    font-size: 16px;
+}
+
+/* Стилове за футъра */
+footer {
+    background-color: ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.foother-container1,
+.foother-container2 {
+    margin-bottom: 20px;
+}
+
+.footer-text1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-text1,
+.footer-text3,
+.footer-text4,
+.footer-text5,
+.footer-text6,
+.footer-text7,
+.footer-text8,
+.footer-text9,
+.footer-text10,
+.footer-text11 {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+}
