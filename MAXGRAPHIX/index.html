@@ -6,12 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./responsive.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost" data-tag="font" />
     <title>Document</title>
 </head>
 
 <body>
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-container">
+        <div class="topnav">
+            <a href="#home" class="active">COMPANY LOGO</a>
+            <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Desktop Navigation Menu -->
     <div class="home-container">
         <div class="home-logo">
             <h3 class="navbar-logo-title">COMPANY LOGO</h3>
@@ -25,16 +41,19 @@
                 </ul>
             </nav>
         </div>
-
     </div>
+
+    <!-- Header Section -->
     <div class="header">
         <h1>FINAL SALE</h1>
     </div>
-    </div>
+
+    <!-- Sales Section -->
     <div class="sale">
         <h3>WOMEN`S SALES</h3>
     </div>
 
+    <!-- Product Section -->
     <div class="product-container">
         <div class="product1">
             <img alt="image" src="./images/1.jpg" class="product-image1" />
@@ -61,8 +80,10 @@
             </div>
         </div>
     </div>
+
     <div class="divider"></div>
 
+    <!-- Footer Section -->
     <footer>
         <div class="foother-container1">
             <span class="footer-text1">SHOP</span>
@@ -70,7 +91,7 @@
             <a href="#" class="footer-text4">Kids</a>
             <a href="#" class="footer-text5">New</a>
             <a href="#" class="footer-text6">Sate</a>
-          </div>
+        </div>
         <div class="foother-container2">
             <span class="footer-text1">COMPANY</span>
             <a href="#" class="footer-text7">About us</a>
@@ -78,12 +99,13 @@
             <a href="#" class="footer-text9">Contact us</a>
             <a href="#" class="footer-text10">Teams of Use</a>
             <a href="#" class="footer-text11">Your Privacy</a>
-
         </div>
-          <div class="copyright">
-            <p> Copyright © 2006-2016</p>
+        <div class="copyright">
+            <p>Copyright © 2006-2016</p>
         </div>
     </footer>
 
+    <!-- Script for Mobile Menu -->
+    <script src="./app.js"></script>
 </body>
 </html>

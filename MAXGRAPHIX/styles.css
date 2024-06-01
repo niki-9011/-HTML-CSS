@@ -36,6 +36,10 @@
     font-family: Jost;
     gap: 70px;
 }
+.mobile-container{
+    display: none;
+}
+
 
 
 a {
@@ -120,7 +124,6 @@ a {
     background-color: #eeeeee;
     margin: 40px auto; 
 }
-
 
 .footer-text1,
 .footer-text2,
